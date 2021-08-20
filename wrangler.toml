@@ -1,0 +1,6 @@
+name = "TODO: worker name"
+type = "javascript"
+zone_id = "TODO: your zone id"
+account_id = "TODO: your account id"
+route = "https://example.com/*"
+workers_dev = false

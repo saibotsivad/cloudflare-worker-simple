@@ -1,0 +1,24 @@
+{
+  "name": "TODO_NAME",
+  "private": true,
+  "version": "0.0.0",
+  "description": "TODO_DESCRIPTION",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "source configuration.sh && wrangler publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TODO_ORG/TODO_NAME.git"
+  },
+  "contributors": [
+    "Tobias Davis <tobias@davistobias.com> (https://davistobias.com/)"
+  ],
+  "bugs": {
+    "url": "https://github.com/TODO_ORG/TODO_NAME/issues"
+  },
+  "homepage": "https://github.com/TODO_ORG/TODO_NAME#readme",
+  "dependencies": {
+    "@cloudflare/wrangler": "^1.19.0"
+  }
+}
