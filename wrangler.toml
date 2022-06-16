@@ -1,6 +1,15 @@
+zone_id = "TODO: your zone id or use env CF_ZONE_ID"
+account_id = "TODO: your account id or use env CF_ACCOUNT_ID"
+
 name = "TODO: worker name"
 type = "javascript"
-zone_id = "TODO: your zone id"
-account_id = "TODO: your account id"
-route = "https://example.com/*"
+
+routes = [
+  "https://example.com/*",
+  "https://example.com/*"
+]
 workers_dev = false
+
+# Set this to whatever the current date is for when you start, and then
+# update it from time to time.
+compatibility_date = "2022-06-15"
